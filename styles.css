@@ -5,7 +5,7 @@
     font-family: "Mulish", sans-serif;
 }
 
-h1{
+h1, h2{
     font-family: "josefin-sans", sans-serif;
 }
 
@@ -39,4 +39,59 @@ a{
     position: absolute;
     bottom: 50px;
     left: 31px;
+}
+
+.texto-spotlight{
+    width: 504px;
+}
+
+h3{
+    font-size: 21px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 265px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: lighter;
+    margin-left: 50px;
+    letter-spacing: 3%;
+}
+
+h1{
+    font-size: 80px;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-weight: bold;
+    letter-spacing: 3%;
+}
+p{
+    font-size: 20px;
+    margin-top: 38px;
+    font-weight: lighter;
+    margin-left: 59px;
+}
+button{
+    margin-top: 72.31px;
+    margin-left: 59px;
+    margin-bottom: 194.36px;
+    width: 211px;
+    height: 60.12px;
+    background: #FFD43C;
+    border: none;
+    border-radius: 10px;
+    color: #302F3D;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+h4{
+    margin-left: 82.5px;
+    font-size: 17px;
+    font-weight: 300;
+    margin-bottom: 77px;
+    color: #302F3D;
 }
