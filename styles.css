@@ -8,7 +8,12 @@
 h1, h2{
     font-family: "josefin-sans", sans-serif;
 }
-
+.container{
+    height: 1024px;
+    width: 1550px;
+    background: #000000;
+    position: absolute;
+}
 header{
     background: #ffffff;
     right: 0px;
@@ -43,6 +48,8 @@ a{
 
 .texto-spotlight{
     width: 504px;
+    top: 0px;
+    position: absolute;
 }
 
 h3{
@@ -94,4 +101,36 @@ h4{
     font-weight: 300;
     margin-bottom: 77px;
     color: #302F3D;
+}
+
+main{
+    color: #ffffff;
+}
+
+.background-spotlight{
+
+}
+
+#espaconave {
+    position: absolute;
+    right: 102px;
+    top: 20px;
+}
+
+#estrelas{
+    position: absolute;
+    right: 102px;
+    top: 20px;
+}
+
+#onda-cinza {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+#onda-branca {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
 }
