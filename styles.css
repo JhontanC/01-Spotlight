@@ -10,8 +10,7 @@ h1, h2{
 }
 .container{
     height: 1024px;
-    width: 1550px;
-    background: #000000;
+    width: 1440px;
     position: absolute;
 }
 header{
@@ -108,7 +107,8 @@ main{
 }
 
 .background-spotlight{
-
+    width: 1338px;
+    height: 1024px;
 }
 
 #espaconave {
