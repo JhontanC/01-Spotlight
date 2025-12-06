@@ -22,12 +22,22 @@ header{
 }
 
 nav{
-    margin-top: 42px;
+    margin-top: 50px;
     position: absolute;
 }
 
 a{
     transform: rotate(90deg);
+    size: 16px;
+    font-weight: lighter;
+    color: #333333;
+    text-decoration: none;
+}
+
+#link-destaque{
+    font-weight: bold;
+    color: #302F3D;
+    text-decoration: underline
 }
 
 .link-nav{
@@ -36,13 +46,14 @@ a{
     font-size: 16px;
     margin-bottom: 80px;
     display: block;
-    margin-left: 50%;
+    margin-left: 22px;
 }
 
 .logo{
     position: absolute;
     bottom: 50px;
     left: 31px;
+    cursor: pointer;
 }
 
 .texto-spotlight{
@@ -100,6 +111,7 @@ h4{
     font-weight: 300;
     margin-bottom: 77px;
     color: #302F3D;
+    cursor: pointer;
 }
 
 main{
@@ -109,28 +121,28 @@ main{
 .background-spotlight{
     width: 1338px;
     height: 1024px;
+    overflow: hidden;
+    position: relative;
 }
 
 #espaconave {
     position: absolute;
-    right: 102px;
-    top: 20px;
+    left: 482px;
+    top: 146px;
 }
 
 #estrelas{
     position: absolute;
-    right: 102px;
-    top: 20px;
+    left: 231px;
+    top: 125px;
 }
 
 #onda-cinza {
     position: absolute;
-    left: 0px;
     bottom: 0px;
 }
 
 #onda-branca {
     position: absolute;
-    left: 0px;
     bottom: 0px;
 }
